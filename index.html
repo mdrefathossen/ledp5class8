@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/58fc2bbc5f.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <style>
+        .bg-img{
+            background-image: url("img_tree.png");
+            background-repeat:no-repeat;
+            
+            width: 300px;
+            padding: 196px;
+        }
+        div:after{
+            content:"";
+            clear: both;
+            display: table;
+        }
+        .margin h1{
+            margin-left: 100px;
+            margin-right: 100px;
+            margin-top: 80px;
+            margin-bottom: 90px;
+            background-color:palevioletred;
+        }
+        .padding{
+            padding:70px;
+            color:white;
+            background-color:blueviolet;
+        }
+        .height-width{
+            width: 500px;
+            height:100px;
+            background-color:tomato;
+        }
+        .height-width h1 {
+            padding:16px;
+            text-align:center;
+        }
+        .box-modal{
+            margin: 50px;
+        }
+        .box-modal div{
+            width:320px;
+            padding: 10px;
+            border: 5px solid gray;
+            margin: 0;
+        }
+        p {outline-color:red;}
+
+p.dotted {outline-style: dotted;}
+p.dashed {outline-style: dashed;}
+p.solid {outline-style: solid;}
+p.double {outline-style: double;}
+p.groove {outline-style: groove;}
+p.ridge {outline-style: ridge;}
+p.inset {outline-style: inset;}
+p.outset {outline-style: outset;}
+.css-link{
+    background-color:black;
+    padding:14px 16px;
+}
+.css-link a{
+    text-decoration:none;
+    
+    color:white;
+    padding:14px 16px;
+}
+.css-link a:hover{
+    background-color:red;
+    color:white;
+
+}
+#student td, #student th {
+    border: 1px solid #ddd;
+    padding:8px;
+    border-collapse:collapse;
+}
+#student tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+#student tr:hover{
+    background-color:#ddd;
+}
+#student th{
+    padding-top:12px;
+    padding-bottom:12px;
+    text-align:left;
+    background-color:#4CAF50;
+    color:white;
+}
+.css-position .box1{
+    position: relative;
+    width: 400px;
+    height:200px;
+    background-color:green;
+}
+.css-position .box2{
+    position: absolute;
+    width: 130px;
+    height: 85px;
+    background-color: red;
+    top: 71px;
+    left: 134px;
+    border-radius: 47%;
+}
+.css-position::after{
+    content:"";
+    clear: both;
+    display: table;
+}
+.overf{
+    background-color:#eee;
+    width:200px;
+    height:100px;
+    border: 1px solid black;
+    overflow: scroll;
+}
+.header, .footer{
+    background-color:gray;
+    text-align:center;
+    height:80px
+    
+}
+.fbox{
+    float: left;
+    padding: 15px;
+    
+
+}
+.row:after{
+    content:"";
+    clear: both;
+    display:table;
+}
+.box4{
+    width: 30%;
+}
+.box5{
+    width:30%;
+    float: left;
+}
+.box6{
+    width:30%;
+    
+
+}
+.navb{
+    background-color: red; 
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.navb a{
+    text-decoration: none;
+    color:white;
+}
+.navb li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px;}
+  .psedo-element a{
+      background-color:red;
+      color: white;
+      padding:14px 16px;
+      text-decoration: none;
+  }
+  .psedo-element a:hover{
+      background-color:black;
+
+
+  }
+  .psedo-element input[type=text]:focus{
+      background-color:red;
+      
+  }
+  .container {
+    margin: 7px 86px;
+    background-color: #ddd;
+    box-sizing: border-box;}
+         
+    </style>
+</head>
+
+<body>
+    <div class="container"> <div>
+    <h1 style="background-color:tomato;">Css Background Color</h1>
+    <h2 style="color:red">css text color</h2>
+    <h1 style="border:1px solid violet">Css border color</h1></div>
+    <div class="bg-img"><h1>Background Image</h1></div>
+    <div class="border">
+        <h1 style="text-align:center">CSS Style</h1>
+        <h1 style="border:1px solid black">I have border on all sides</h1>
+        <h1 style="border-bottom: 1px solid red;">I have a red bottom border</h1>
+        <h1 style="border:1px solid tomato;border-radius: 5px;">I have rounded border</h1>
+        <h1 style="border-left: 5px solid blue;">I hace a blue left border</h1>
+        <p style="border: 1px dotted red">Lorem ipsum dolor sit amet.</p>
+        <p style="border: 1px dashed rgb(55, 0, 255)">Lorem ipsum dolor sit amet.</p>
+        <p style="border-style:double">Lorem ipsum dolor sit amet.</p>
+        <p style="border-style:groove">Lorem ipsum dolor sit amet.</p>
+        <p style="border-style:ridge ">Lorem ipsum dolor sit amet.</p>
+        <p style="border-style:outset">Lorem ipsum dolor sit amet.</p>
+        <p style="border-style:  dotted dashed solid double">Lorem ipsum dolor sit amet.</p>
+    </div>
+    <div class="margin">
+        <h1 style="text-align:center; color:aqua">CSS Margin</h1>
+
+    </div>
+    <div class="padding">
+        <h2>Css padding</h2>
+    </div>
+    <div class="height-width">
+  <h1>Css height width</h1>
+    </div>
+    <div class="box-modal">
+        <h1>CSS Box Model</h1>
+        <img src="klematis4_big.jpg" width="350" height="263" alt="">
+        <div>The picture above is 350px wide. The total width of this element is also 350px</div>
+    </div>
+    <div class="outline">
+        <h1 style="text-align:center;">CSS Outline</h1>
+        <p class="dotted">A dotted outline</p>
+<p class="dashed">A dashed outline</p>
+<p class="solid">A solid outline</p>
+<p class="double">A double outline</p>
+<p class="groove">A groove outline. The effect depends on the outline-color value.</p>
+<p class="ridge">A ridge outline. The effect depends on the outline-color value.</p>
+<p class="inset">An inset outline. The effect depends on the outline-color value.</p>
+<p class="outset">An outset outline. The effect depends on the outline-color value.</p>
+    </div>
+    <div class="Css-text">
+        <h1 style="text-align:center;">CSS text</h1>
+        <h2 style="background-color:blueviolet;color: white;">Css text color and background color</h2>
+        <h3 style="text-align: center;">Text alignment center</h3>
+        <h3 style="text-align: left;">Text alignment left</h3>
+        <h3 style="text-align: right;">Text alignment right</h3>
+     <h2 style="text-align: center;">Text Decoration</h2>
+     <a style="text-decoration:none" href="www.facebook.com/therefat">My Facebook id</a>
+     <h1 style="text-decoration: overline;">text decoration overline</h1>
+     <h2 style="text-decoration: line-through;">Text decoration line-throught</h2>
+     <h3 style="text-decoration: underline;">Text decoration underline</h3>
+     <h2 style="text-align: center;">Text Transmission</h2>T
+     <p style="text-transform: uppercase;">Lorem ipsum dolor sit amet.</p>
+     <p style="text-transform:lowercase">Lorem ipsum dolor sit amet consectetur.</p>
+     <p style="text-transform:capitalize">Lorem ipsum dolor sit amet.</p>
+     <h2 style="text-align: center;">Text Spacing</h2>
+     <h3 style="letter-spacing:4px">this is heading 2</h3>
+     <h2 style="text-align: center;">line height</h2>
+     <p style="line-height:2">
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+         Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+     </p>
+     <h3 style="text-shadow: 2px 2px 5px blue;">Text shadow effect</h3>
+    </div>
+    <div class="font-family">
+        <h1 style="text-align: center;">Font family</h1>
+        <p style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Lorem ipsum dolor sit amet consectetur.</p>
+    </div>
+    <div style="padding:50px; text-align:center"  class="css-icon">
+        <h1>Css icon</h1>
+        <a style="font-size: 30px;" href="www.facebook.com/therefat"><i class="fab fa-facebook"></i></a>
+        <a style="font-size: 30px;" href="tel:+8801774680458"><i class="fas fa-phone-alt"></i></a>
+        <a style="font-size: 30px;" href="mailto:refathossen@gamil.com"><i class="fas fa-envelope"></i></a>
+    </div>
+    <h1 style="text-align:center;">CSS Link</h1>
+    <div class="css-link">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </div>
+    <div class="css-list">
+        <h2 style="text-align: center;">Css List</h2>
+        <h3>Unordered List</h3>
+        <ul>
+            <li>Coffe</li>
+            <li>Tea</li>
+            <li>Coca Coca</li>
+
+        </ul>
+        <h3>Ordered List</h3>
+        <ul>
+            <li>Coffe</li>
+            <li>Tea</li>
+            <li>Coca Cola</li>
+        </ul>
+
+    </div>
+    <div class="css-table">
+        <h1>Css Table</h1>
+        <table id="student">
+            <tr>
+              <th>Name</th>
+              <th>Department</th>
+              <th>Address</th>
+            </tr>
+            <tr>
+              <td>Md Refat Hossen </td>
+              <td>Computer Science</td>
+              <td>Birol</td>
+            </tr>
+            <tr>
+              <td>Sadiq</td>
+              <td>Computer Scince</td>
+              <td>Dinajpur</td>
+            </tr>
+            <tr>
+              <td>Raju</td>
+              <td>Sivil</td>
+              <td>Birganj</td>
+            </tr>
+            <tr>
+              <td>Rakib</td>
+              <td>Electrical</td>
+              <td>Mirzapur</td>
+            </tr>
+            <tr>
+              <td>Abu Sayed</td>
+              <td>Textile</td>
+              <td>Ranipukur</td>
+            </tr>
+           
+          </table>
+    </div>
+    <div class="css-position">
+        <h1>Css Position</h1>
+     <div class="box1">
+         <div class="box2"></div>
+     </div>
+     
+    </div>
+    <div class="css-overflow">
+        <h2>Css Overflow</h2>
+        <div class="overf">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quae fugit iste! Natus blanditiis eveniet excepturi sit, obcaecati minima, vel similique quos deleniti libero, nemo cumque quo veniam ducimus sequi consequatur dicta repellat expedita voluptatibus!</p>
+        </div>
+    </div>
+    <div class="Css-float">
+        <h1 style="text-align:center">CSS Float</h1>
+        <div class="header"><h1 style="text-align:center;">Header</h1></div>
+        <div class="row">
+            <div class="box4 fbox"><h2>Box1</h2></div>
+            <div class="box5 fbox"><h2>Box2</h2></div>
+            <div class="box6 fbox"><h2>Box3</h2></div>
+        </div>
+        <div class="footer"><h1 style="text-align:center;">Footer</h1></div>
+    </div>
+    <div class="inline-block">
+        <h1>Css inline block</h1>
+        <ul class="navb">
+            <li><a href="#home">Home</a></li>
+  <li><a href="#about">About Us</a></li>
+  <li><a href="#clients">Our Clients</a></li>  
+  <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </div>
+    <div class="psedo-element">
+
+        <h1 style="text-align:center">Pseudo Elements</h1>
+        <a  href="#">:hover</a>
+        <input type="text" name="name">
+    </div>
+    </div>
+</body>
+</html>
